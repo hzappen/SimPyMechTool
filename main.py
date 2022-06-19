@@ -1,3 +1,10 @@
 from examples import basic_example
+from solid.extensions.bosl2 import *
+import viewscad
 
-basic_example.two_crossed_bars(render=True)
+assembly = basic_example.two_crossed_bars(render=True)
+
+#assembly.save_as_scad()
+
+#thick = metric_screws.get_metric_nut_thickness()
+#print(thick)
