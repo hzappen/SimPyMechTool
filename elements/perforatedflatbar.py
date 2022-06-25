@@ -3,12 +3,12 @@ from solid import *
 from solid.extensions.bosl2 import *
 
 
-STD_WIDTH = 15
-STD_HEIGHT = 2
-STD_HOLE_DISTANCE = 10
-STD_HOLE_DIAMETER = 5
+STD_WIDTH = 28.5
+STD_HEIGHT = 4.3
+STD_HOLE_DISTANCE = 30
+STD_HOLE_DIAMETER = 10
 STD_HOLE_HEIGHT = STD_HEIGHT + 1
-STD_HOLE_MIN_DIST_EDGE = STD_HOLE_DISTANCE / 4
+STD_HOLE_MIN_DIST_EDGE = STD_HOLE_DISTANCE / 3
 
 def calcNumberofHoles(length: float):
     
